@@ -66,7 +66,9 @@ if(pat[i]==pat[len]
        i++;
    }
    else
-   {
+   {  if(len!=0)
+       len=pre[len-1];
+       else
        pre[i]=0;i++;
    }
 }
