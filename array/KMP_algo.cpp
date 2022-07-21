@@ -48,3 +48,25 @@ class Solution
             
             return ans;
   }};
+
+
+
+
+//prefix array can also be computed as
+
+int pre[n];
+int i=1,len=0;
+pre[0]=0;
+while(i<n)
+{
+if(pat[i]==pat[len]
+   {
+       pre[i]=len+1;
+       len++;
+       i++;
+   }
+   else
+   {
+       pre[i]=0;i++;
+   }
+}
